@@ -1,0 +1,175 @@
+fileFormatVersion: 2
+guid: 5d71bbe2ec296814f99a0b252a1e17c1
+timeCreated: 1493887719
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: $AMBIENT$
+    100002: aluminium
+    100004: backlght
+    100006: black
+    100008: body
+    100010: braklght
+    100012: Camera
+    100014: //RootNode
+    100016: chrome
+    100018: fronlght
+    100020: glass
+    100022: glassblk
+    100024: inter_w
+    100026: interior
+    100028: Lamp
+    100030: mirror
+    100032: nplate
+    100034: plastic
+    100036: rearlght
+    100038: turnlght
+    100040: tyre
+    100042: wheel
+    400000: $AMBIENT$
+    400002: aluminium
+    400004: backlght
+    400006: black
+    400008: body
+    400010: braklght
+    400012: Camera
+    400014: //RootNode
+    400016: chrome
+    400018: fronlght
+    400020: glass
+    400022: glassblk
+    400024: inter_w
+    400026: interior
+    400028: Lamp
+    400030: mirror
+    400032: nplate
+    400034: plastic
+    400036: rearlght
+    400038: turnlght
+    400040: tyre
+    400042: wheel
+    2300000: aluminium
+    2300002: backlght
+    2300004: black
+    2300006: body
+    2300008: braklght
+    2300010: chrome
+    2300012: fronlght
+    2300014: glass
+    2300016: glassblk
+    2300018: inter_w
+    2300020: interior
+    2300022: mirror
+    2300024: nplate
+    2300026: plastic
+    2300028: rearlght
+    2300030: turnlght
+    2300032: tyre
+    2300034: wheel
+    3300000: aluminium
+    3300002: backlght
+    3300004: black
+    3300006: body
+    3300008: braklght
+    3300010: chrome
+    3300012: fronlght
+    3300014: glass
+    3300016: glassblk
+    3300018: inter_w
+    3300020: interior
+    3300022: mirror
+    3300024: nplate
+    3300026: plastic
+    3300028: rearlght
+    3300030: turnlght
+    3300032: tyre
+    3300034: wheel
+    4300000: wheel
+    4300002: tyre
+    4300004: turnlght
+    4300006: rearlght
+    4300008: plastic
+    4300010: nplate
+    4300012: mirror
+    4300014: interior
+    4300016: inter_w
+    4300018: glassblk
+    4300020: glass
+    4300022: fronlght
+    4300024: chrome
+    4300026: braklght
+    4300028: body
+    4300030: black
+    4300032: backlght
+    4300034: aluminium
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
