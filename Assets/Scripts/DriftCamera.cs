@@ -50,8 +50,7 @@ public class DriftCamera : MonoBehaviour
         }
         else
         {
-            //transform.position = Vector3.Lerp(transform.position, positionTarget.position, Time.deltaTime * smoothing);
-            transform.position = Vector3.Lerp(transform.position, positionTarget.position, smoothing);
+            transform.position = Vector3.Lerp(transform.position, positionTarget.position, Time.deltaTime * smoothing);
             transform.LookAt(lookAtTarget);
         }
     }
