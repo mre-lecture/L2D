@@ -755,11 +755,6 @@ Prefab:
       propertyPath: m_SuspensionSpring.damper
       value: 6116.79
       objectReference: {fileID: 0}
-    - target: {fileID: 114964210057824572, guid: 52c68b1fa3bfcb84ab1275f15ec11b61,
-        type: 2}
-      propertyPath: decRevs
-      value: 0.1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 52c68b1fa3bfcb84ab1275f15ec11b61, type: 2}
   m_IsPrefabParent: 0
