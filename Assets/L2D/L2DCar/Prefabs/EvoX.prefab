@@ -8633,7 +8633,7 @@ MonoBehaviour:
   minRevs: 1
   maxRevs: 4
   incRevs: 0.02
-  decRevs: 0.06
+  decRevs: 0.1
 --- !u!124 &124003397243359706
 Behaviour:
   m_ObjectHideFlags: 1
