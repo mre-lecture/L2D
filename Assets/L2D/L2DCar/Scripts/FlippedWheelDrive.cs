@@ -69,6 +69,9 @@ public class FlippedWheelDrive : MonoBehaviour
         float angle = maxAngle * Input.GetAxis("Horizontal");
         float torque = maxTorque * Input.GetAxis("Vertical");
 
+        //FOR AUDIO
+        GetComponent<AudioSource>().pitch = torque/maxTorque;
+
         float handBrake = Input.GetKey(KeyCode.X) ? brakeTorque : 0;
 
         foreach (WheelCollider wheel in m_Wheels)
