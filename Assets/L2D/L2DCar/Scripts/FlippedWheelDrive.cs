@@ -32,6 +32,14 @@ public class FlippedWheelDrive : MonoBehaviour
 
     private WheelCollider[] m_Wheels;
 
+    //audio
+    public float minRevs = 1;
+    public float maxRevs = 3;
+    public float incRevs = 0.02f;
+    public float decRevs = 0.06f;
+
+    private float pitch = 0;
+
     // Find all the WheelColliders down in the hierarchy.
     void Start()
     {
@@ -70,7 +78,11 @@ public class FlippedWheelDrive : MonoBehaviour
         float torque = maxTorque * Input.GetAxis("Vertical");
 
         //FOR AUDIO
-        GetComponent<AudioSource>().pitch = torque/maxTorque;
+        pitch += Input.GetAxis("Vertical") > 0 ? incRevs:-decRevs;
+        pitch = Math.Min(maxRevs, pitch);
+        pitch = Math.Max(minRevs, pitch);
+
+        GetComponent<AudioSource>().pitch = pitch;
 
         float handBrake = Input.GetKey(KeyCode.X) ? brakeTorque : 0;
 

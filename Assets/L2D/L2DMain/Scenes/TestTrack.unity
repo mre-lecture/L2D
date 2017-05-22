@@ -745,6 +745,31 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 146785887383515924, guid: 52c68b1fa3bfcb84ab1275f15ec11b61,
+        type: 2}
+      propertyPath: m_SuspensionSpring.spring
+      value: 38229.934
+      objectReference: {fileID: 0}
+    - target: {fileID: 146785887383515924, guid: 52c68b1fa3bfcb84ab1275f15ec11b61,
+        type: 2}
+      propertyPath: m_SuspensionSpring.damper
+      value: 6116.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 114964210057824572, guid: 52c68b1fa3bfcb84ab1275f15ec11b61,
+        type: 2}
+      propertyPath: revsInc
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114964210057824572, guid: 52c68b1fa3bfcb84ab1275f15ec11b61,
+        type: 2}
+      propertyPath: minRevs
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114964210057824572, guid: 52c68b1fa3bfcb84ab1275f15ec11b61,
+        type: 2}
+      propertyPath: maxRevs
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 52c68b1fa3bfcb84ab1275f15ec11b61, type: 2}
   m_IsPrefabParent: 0
