@@ -55,7 +55,7 @@ PlayerSettings:
   androidShowActivityIndicatorOnLoading: -1
   tizenShowActivityIndicatorOnLoading: -1
   iosAppInBackgroundBehavior: 0
-  displayResolutionDialog: 1
+  displayResolutionDialog: 0
   iosAllowHTTPDownload: 1
   allowedAutorotateToPortrait: 1
   allowedAutorotateToPortraitUpsideDown: 1
@@ -267,7 +267,7 @@ PlayerSettings:
     m_Enabled: 0
     m_Devices: []
   - m_BuildTarget: Standalone
-    m_Enabled: 0
+    m_Enabled: 1
     m_Devices:
     - Oculus
   - m_BuildTarget: Tizen
@@ -290,7 +290,8 @@ PlayerSettings:
     m_Devices: []
   - m_BuildTarget: iOS
     m_Enabled: 0
-    m_Devices: []
+    m_Devices:
+    - cardboard
   - m_BuildTarget: tvOS
     m_Enabled: 0
     m_Devices: []
@@ -320,7 +321,7 @@ PlayerSettings:
   enableInternalProfiler: 0
   logObjCUncaughtExceptions: 1
   enableCrashReportAPI: 0
-  cameraUsageDescription: 
+  cameraUsageDescription: Used to scan QR codes
   locationUsageDescription: 
   microphoneUsageDescription: 
   switchNetLibKey: 
@@ -563,7 +564,7 @@ PlayerSettings:
   webGLCompressionFormat: 1
   scriptingDefineSymbols: {}
   platformArchitecture:
-    iOS: 2
+    iOS: 0
   scriptingBackend:
     Metro: 2
     Standalone: 0

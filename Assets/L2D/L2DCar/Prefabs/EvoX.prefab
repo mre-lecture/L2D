@@ -767,6 +767,23 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1339373801359864
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4531819947701994}
+  - component: {fileID: 23625353206662462}
+  - component: {fileID: 102029976608840542}
+  m_Layer: 0
+  m_Name: ScoreDebug
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1353010183362798
 GameObject:
   m_ObjectHideFlags: 1
@@ -2120,6 +2137,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4507900806356420}
   - component: {fileID: 54100163094392710}
+  - component: {fileID: 114194532993873142}
   - component: {fileID: 114676317464089418}
   - component: {fileID: 114964210057824572}
   - component: {fileID: 82075709034285236}
@@ -2497,7 +2515,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4507900806356420}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4116183191623040
 Transform:
@@ -2536,7 +2554,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4507900806356420}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4132721408834160
 Transform:
@@ -3154,7 +3172,7 @@ Transform:
   - {fileID: 4996218919972416}
   - {fileID: 4257604230460200}
   m_Father: {fileID: 4507900806356420}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4410750172283822
 Transform:
@@ -3221,7 +3239,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4507900806356420}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: -9.54, y: -2.94, z: 0}
 --- !u!4 &4438743940348542
 Transform:
@@ -3333,10 +3351,11 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1901832172573174}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.429169, y: -4.67, z: -16.491604}
+  m_LocalRotation: {x: 0, y: 0.6989147, z: 0, w: 0.715205}
+  m_LocalPosition: {x: -25.38, y: 0.3480358, z: 25.46}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 4531819947701994}
   - {fileID: 4888638657756690}
   - {fileID: 4131564441601282}
   - {fileID: 4535012173329428}
@@ -3347,7 +3366,7 @@ Transform:
   - {fileID: 4397728357371286}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 88.68, z: 0}
 --- !u!4 &4509146350660426
 Transform:
   m_ObjectHideFlags: 1
@@ -3408,6 +3427,19 @@ Transform:
   m_Father: {fileID: 4386359523959318}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4531819947701994
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1339373801359864}
+  m_LocalRotation: {x: -0, y: 0.043476436, z: -0, w: 0.9990545}
+  m_LocalPosition: {x: -0.0176, y: 0.425, z: 0.716}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4507900806356420}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 4.984, z: 0}
 --- !u!4 &4532889505728002
 Transform:
   m_ObjectHideFlags: 1
@@ -3432,7 +3464,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4507900806356420}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4553272343584086
 Transform:
@@ -3601,7 +3633,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4507900806356420}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4665420459971298
 Transform:
@@ -3930,7 +3962,7 @@ Transform:
   - {fileID: 4686995867719790}
   - {fileID: 4144004035604450}
   m_Father: {fileID: 4507900806356420}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!4 &4908631059420398
 Transform:
@@ -4007,7 +4039,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4507900806356420}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4927846728848296
 Transform:
@@ -6438,6 +6470,38 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!23 &23625353206662462
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1339373801359864}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
 --- !u!23 &23645626796159760
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -8577,6 +8641,27 @@ Behaviour:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1309932680180926}
   m_Enabled: 1
+--- !u!102 &102029976608840542
+TextMesh:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1339373801359864}
+  m_Text: 100000
+  m_OffsetZ: 0
+  m_CharacterSize: 1
+  m_LineSpacing: 1
+  m_Anchor: 4
+  m_Alignment: 1
+  m_TabSize: 4
+  m_FontSize: 40
+  m_FontStyle: 0
+  m_RichText: 1
+  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Color:
+    serializedVersion: 2
+    rgba: 4294967295
 --- !u!114 &114182647996505142
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8596,6 +8681,21 @@ MonoBehaviour:
   screenSize: 0
   viewerType: 1
   stereoScreenScale: 1
+--- !u!114 &114194532993873142
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1901832172573174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5198df5b4e1c334458b29ad1fca6b4ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 0
+  maxScore: 1000
+  goal: {fileID: 0}
+  debugField: {fileID: 102029976608840542}
 --- !u!114 &114676317464089418
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8671,11 +8771,11 @@ WheelCollider:
   m_Center: {x: 0, y: 0, z: 0}
   m_Radius: 0.34
   m_SuspensionSpring:
-    spring: 37584.383
-    damper: 6013.5015
+    spring: 37584.34
+    damper: 6013.494
     targetPosition: 0.5
   m_SuspensionDistance: 0.19620001
-  m_ForceAppPointDistance: 0.719
+  m_ForceAppPointDistance: 0.71899986
   m_Mass: 20
   m_WheelDampingRate: 0.25
   m_ForwardFriction:
@@ -8700,11 +8800,11 @@ WheelCollider:
   m_Center: {x: 0, y: 0, z: 0}
   m_Radius: 0.34
   m_SuspensionSpring:
-    spring: 37415.617
-    damper: 5986.499
+    spring: 37415.668
+    damper: 5986.507
     targetPosition: 0.5
   m_SuspensionDistance: 0.19620001
-  m_ForceAppPointDistance: 0.7269999
+  m_ForceAppPointDistance: 0.72699976
   m_Mass: 20
   m_WheelDampingRate: 0.25
   m_ForwardFriction:
@@ -8729,11 +8829,11 @@ WheelCollider:
   m_Center: {x: 0, y: 0, z: 0}
   m_Radius: 0.34
   m_SuspensionSpring:
-    spring: 38229.934
-    damper: 6116.79
+    spring: 38229.9
+    damper: 6116.784
     targetPosition: 0.5
   m_SuspensionDistance: 0.1962
-  m_ForceAppPointDistance: 0.7269999
+  m_ForceAppPointDistance: 0.72699976
   m_Mass: 20
   m_WheelDampingRate: 0.25
   m_ForwardFriction:
@@ -8758,11 +8858,11 @@ WheelCollider:
   m_Center: {x: 0, y: 0, z: 0}
   m_Radius: 0.34
   m_SuspensionSpring:
-    spring: 36770.062
-    damper: 5883.2104
+    spring: 36770.1
+    damper: 5883.2163
     targetPosition: 0.5
   m_SuspensionDistance: 0.19620001
-  m_ForceAppPointDistance: 0.719
+  m_ForceAppPointDistance: 0.71899986
   m_Mass: 20
   m_WheelDampingRate: 0.25
   m_ForwardFriction:
