@@ -347,7 +347,7 @@ Prefab:
     - target: {fileID: 146367586578314674, guid: 52c68b1fa3bfcb84ab1275f15ec11b61,
         type: 2}
       propertyPath: m_SuspensionSpring.damper
-      value: 5986.507
+      value: 5986.5073
       objectReference: {fileID: 0}
     - target: {fileID: 114964210057824572, guid: 52c68b1fa3bfcb84ab1275f15ec11b61,
         type: 2}
@@ -4598,7 +4598,7 @@ Animator:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1589371292}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 41ea4d2a36dd9544fb712bd7b1a85cee, type: 2}
   m_CullingMode: 0
