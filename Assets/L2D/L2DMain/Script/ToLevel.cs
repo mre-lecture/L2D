@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class ToLevel : MonoBehaviour {
 
-    public TextMesh debugField;
+    
     // Use this for initialization
     void Start () {
 		
